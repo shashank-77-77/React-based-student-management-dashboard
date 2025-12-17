@@ -1,4 +1,4 @@
-// src/hooks/useStudents.js
+/ src/hooks/useStudents.js
 import { useState, useEffect } from 'react';
 import { fetchStudents, addStudent } from '../services/students';
 
@@ -18,7 +18,7 @@ export function useStudents() {
         setLoading(false);
       }
     };
-
+//update
     loadStudents();
   }, []);
 
